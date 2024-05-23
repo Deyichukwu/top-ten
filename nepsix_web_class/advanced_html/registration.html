@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>join us</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a href="./index.html">home</a>
+    <a href="./about.html" title="okayyyy">about us</a>
+    <a href="./registration.html">register</a>
+    <h1>Registration Page</h1>
+    <p>Please fill out this form</p>
+    <form action="">
+      <label for="firstName">
+        First Name: <br />
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="Enter First Name"
+          required
+        />
+      </label>
+      <br />
+      <br />
+      <label for="LastName">
+        Last name: <br />
+        <input
+          type="text"
+          name="LastName"
+          id="lastName"
+          placeholder="Enter Last Name"
+        />
+      </label>
+      <br />
+      <br />
+      <label for="email">
+        Email: <br />
+        <input type="email" name="email" id="email" placeholder="Enter email" />
+      </label>
+      <br />
+      <br />
+      <label for="password">
+        password: <br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter password"
+        />
+      </label>
+      <br />
+      <br />
+      <label for="gender">
+        Gender: <br />
+        <input type="radio" name="gender" id="male" value="male" /> Male <br />
+        <input type="radio" name="gender" id="female" value="female" /> Female
+        <br />
+        <input type="radio" name="gender" id="others" value="others" /> Others
+        <br />
+        <br />
+      </label>
+
+      <!-- food section  -->
+      <label for="favoriteFood">
+        Favorite Food: <br />
+        <input type="checkbox" name="favoriteFood1" value="beansAndPlantain" />
+        Beans and Plantain <br />
+        <input type="checkbox" name="favoriteFood2" value="egusiSoupAndGarri" />
+        Egusi soup and Garri <br />
+        <input type="checkbox" name="favoriteFood1" value="riceAndStew" />
+        Rice and Stew <br />
+      </label>
+      <br />
+      <br />
+      <!-- state of origin -->
+      <label for="stateOfOrigin">
+        State Of Origin: <br />
+        <select name="stateOfOrigin" id="stateOfOrigin">
+          <option value="imo">Imo</option>
+          <option value="Bayelsa">Bayelsa</option>
+          <option value="Rivers">Rivers</option>
+          <option value="Rivers">Rivers</option>
+          <option value="Enugu">Enugu</option>
+        </select>
+      </label>
+
+      <select name="LEGACY" id="LEGACY2000">
+        <option value="david">david</option>
+        <option value="david">david</option>
+        <option value="david">david</option>
+        <option value="david">david</option>
+        <option value="david">david</option>
+        <option value="david">david</option>
+      </select>
+      <br />
+      <br />
+      <!-- Choose University of choice -->
+      <label for="universityOfChoice">
+        Choose Prefered University: <br />
+        <select multiple name="chooseUniversity" id="university">
+          <option value="ebonyiStateUniversity">Ebonyi State University</option>
+          <option value="abiaStateUniversity">Abia State University</option>
+          <option value="enuguStateUniversity">Enugu State University</option>
+          <option value="anambraStateUniversity">
+            Anambra State University
+          </option>
+          <option value="kogiStateUniversity">Kogi State University</option>
+          <option value="ondoStateUniversity">Ondo State University</option>
+          <option value="lagosStateUniversity">Lagos State University</option>
+          <option value="kadunaStateUniversity">Kaduna State University</option>
+          <option value="kwarraStateUniversity">Kwarra State University</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label for="passport">
+        Select a file: <br />
+        <input type="file" />
+      </label>
+      <br />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

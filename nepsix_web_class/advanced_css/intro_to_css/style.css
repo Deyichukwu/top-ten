@@ -1,0 +1,43 @@
+h1 {
+  font-size: 60px;
+  text-decoration: underline;
+  color: darkgreen;
+}
+
+.first_text {
+  color: red;
+}
+
+.second_text {
+  text-transform: uppercase;
+  border: 1px solid green;
+}
+
+.second_text:hover {
+  border: none;
+  font-size: 50px;
+}
+#special_text {
+  color: blue;
+  font-size: 22px;
+}
+
+.btn_submit {
+  background-color: aqua;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.btn_submit:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.color_test {
+  background-color: rgba(128, 128, 128, 0.3);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-style: italic;
+}
